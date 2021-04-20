@@ -1,0 +1,79 @@
+.header {
+  background-image: url("../assets/bg-header.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul{
+  padding-left: 10px;
+}
+li{
+  list-style: none;
+}
+.header-logo ,
+.footer-logo{
+  width: 50px;
+}
+.header-info {
+  height: 40vh;
+}
+/* CARDS */
+.img-filter {
+  filter: brightness(0.5);
+}
+.experience {
+  background-image: url("../assets/bg-clients.jpeg");
+  height: 80vh;
+}
+img[alt="jhon"]{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: medium solid white;
+}
+/* CUT-HEADER */
+
+.cut-header{
+  bottom: -2px;
+}
+img[alt="cut-header-2"]{
+    transform: rotate(180deg);
+    width: 100%;
+    top: -2px;
+    
+}
+.caracteristicas img{
+  width: 80px;
+  object-fit: contain;
+
+}
+ .card-rombo{
+   transition: all 0.3s ease-in-out;
+ }
+ .card{
+   transition-duration: 0.3s;
+   clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 100% 100%,50% 100%, 0 100%,0 50%, 0 0); 
+ }
+.card-rombo:hover .card{
+  clip-path: polygon(50% 0%,50% 0%, 100% 50%, 100% 50%, 50% 100%, 50% 100%,0 50%,0 50%); 
+}
+.card-img{
+  width: 100%;
+  object-fit: contain;
+}
+.card-img-overlay{
+  transition-duration: 0.3s;
+}
+.card-rombo:hover .card-img-overlay{
+  transform: scale(0.9);
+}
+/* CAROUSEL */
+.carousel-item img{
+  filter: brightness(0.5);
+}
+
