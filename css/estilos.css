@@ -75,5 +75,6 @@ img[alt="cut-header-2"]{
 /* CAROUSEL */
 .carousel-item img{
   filter: brightness(0.5);
+  
 }
 
