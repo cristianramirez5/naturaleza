@@ -56,6 +56,9 @@ img[alt="cut-header-2"]{
    transition: all 0.3s ease-in-out;
  }
  .card{
+   margin-bottom: -1px;
+ }
+ .card{
    transition-duration: 0.3s;
    clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 100% 100%,50% 100%, 0 100%,0 50%, 0 0); 
  }
